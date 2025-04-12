@@ -18,12 +18,6 @@ This project focuses on the Kaggle competition task of "Improving Large Language
 
 [Watch Project Introduction Video](https://www.youtube.com/watch?v=1SF3cSyJm-w)
 
-## 👥 Team Members
-
-- NTHU 112064528 Lin, Tse-Yu
-- NTHU 112064535 Liu, Heng
-- NTHU 113064513 Peng, Chih-Chung
-
 ## 🎯 Project Objectives
 
 - Analyze user interaction data from the Chatbot Arena platform
@@ -125,13 +119,6 @@ import lightgbm as lgb
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 ```
-
-## 📚 References
-
-1. Vishnu Priya. (2024). LLM Classification Finetuning (XGB). Kaggle.
-2. Addison Howard. (2024). LMSYS: KerasNLP Starter. Kaggle.
-3. Filtered. (2024). LLM Classification Finetuning - (LGBMClassifier). Kaggle.
-4. Lianmin Zheng, et al. "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena.", arXiv preprint arXiv: 2306.05685, 2023.
 
 ## 📄 License
 
