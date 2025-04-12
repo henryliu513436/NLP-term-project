@@ -20,10 +20,8 @@ This project focuses on the Kaggle competition task of "Improving Large Language
 
 ## 🎯 Project Objectives
 
-- Analyze user interaction data from the Chatbot Arena platform
-- Design and train models that accurately predict user preferences
-- Explore various machine learning techniques and feature engineering methods
-- Identify and address various biases (length bias, position bias, etc.)
+This repository contains our implementation for predicting human preferences between pairs of LLM responses, as part of the "Improving LLM Response Classification" competition on Kaggle. Our goal was to analyze interaction data from Chatbot Arena, where users were presented with two anonymous model responses and asked to choose their preferred one.
+We developed multiple approaches including DebertaV3, XGBClassifier, and a weighted average ensemble method combining LGBMClassifier with pre-trained LLMs (Gamma2-9b and Llama3-8b). Our best model achieved a competitive score of 0.83084, placing it near the top of the competition leaderboard.
 
 ## 📊 Data Analysis
 
@@ -33,12 +31,6 @@ This project uses interaction data from Chatbot Arena, including:
 - **Testing Data**: Approximately 25,000 interaction records
 - **Data Structure**: Each record includes prompts, responses from two models, and user selections
 
-### Key Findings:
-
-1. **Gender Ratio**: 23% female and 77% male
-2. **Label Distribution**: Classification labels (winner_model_a, winner_model_b, winner_tie) are relatively evenly distributed
-3. **Response Length Analysis**: Longer responses tend to be selected as preferred
-4. **Model Response Characteristics**: The response bias is associated with selection probability
 
 ## 🔧 Implementation Methods
 
