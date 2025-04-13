@@ -94,23 +94,6 @@ This project uses interaction data from Chatbot Arena, including:
    - Design specialized mechanisms for handling length and position biases
    - Explore methods like swapping response positions to reduce the impact of specific biases
 
-## 🛠️ Environment and Dependencies
-
-```python
-# Main dependency libraries
-import numpy as np
-import pandas as pd
-import torch
-import tensorflow as tf
-import keras
-from keras.models import Model
-from keras.layers import Dense, GlobalAveragePooling1D
-from gensim.models import Word2Vec
-import xgboost as xgb
-import lightgbm as lgb
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
-```
 
 ## 📄 License
 
